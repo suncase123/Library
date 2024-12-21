@@ -3533,7 +3533,7 @@ function Library:CreateWindow(...)
                 local CursorOutline = Drawing.new('Triangle');
                 CursorOutline.Thickness = 1;
                 CursorOutline.Filled = false;
-                CursorOutline.Color = Color3.new(0, 0, 0);
+                CursorOutline.Color = Color3.new(255, 255, 255);
                 CursorOutline.Visible = true;
 
                 while Toggled and ScreenGui.Parent do
